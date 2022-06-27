@@ -1,5 +1,6 @@
-# Palindrome-String-
+# Palindrome-String
 
+By Reverse and lenght divided by 2 (half of lenght)
 Given a string S, check if it is palindrome or not.
 
 Example 1:

@@ -1,5 +1,4 @@
-/*Input: S = "abba"
-Output: 1*/
+/******lenght divided by 2 (half of lenght)********/
 let S = "abba";
 // let S = "abc"
 function isPalindrome(string) {

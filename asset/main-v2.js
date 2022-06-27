@@ -1,11 +1,15 @@
 /******By Reverse******/
 let S = "abba";
-let array = S.split("");
-let revArray = array.reverse();
-console.log(revArray);
-let revString = revArray.join("");
-if (S == revString) {
-  console.log(1);
-} else {
-  console.log(0);
+
+function isPalindrome(string) {
+  let array = string.split("");
+  let revArray = array.reverse();
+  let revString = revArray.join("");
+  if (string == revString) {
+    return 1;
+  } else {
+    return 0;
+  }
 }
+isPalindrome(S);
+console.log(isPalindrome(S));
